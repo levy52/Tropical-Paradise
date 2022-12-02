@@ -8,8 +8,8 @@
 }
 
 @mixin heroimages($bgimg) {
-    background-image: $blue-gradient, url($bgimg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+	background-image: $blue-gradient, url($bgimg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
