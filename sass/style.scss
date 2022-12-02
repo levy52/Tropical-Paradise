@@ -191,6 +191,25 @@ body {
 	}
 }
 
+.hero-img {
+	position: relative;
+	padding: 10em 2em;
+	@include heroimages('../img/hd-wallpaper-gb5c5bf9cd_640.jpg');
+	text-align: center;
+	color: $pure-white;
+	overflow: hidden;
+
+	&__title {
+		font-family: 'Dancing Script', cursive;
+		margin-bottom: 0.5em;
+		font-size: 4.8rem;
+	}
+
+	&__text {
+		padding: 1em 0;
+	}
+}
+
 @media (min-width: 576px) {
 	.dreams {
 		&__box {
@@ -221,7 +240,7 @@ body {
 }
 
 @media (min-width: 768px) {
-	.white_block {
+	.white-block {
 		height: 50px;
 		width: 45%;
 	}
@@ -243,6 +262,19 @@ body {
 	.dreams {
 		&__text {
 			font-size: 1.8rem;
+		}
+	}
+
+	.hero-img {
+		padding: 30rem 2em;
+
+		hr {
+			margin: 0 auto;
+			width: 70%;
+		}
+
+		&__text {
+			font-size: 2.2rem;
 		}
 	}
 }
@@ -285,6 +317,20 @@ body {
 
 		&__text {
 			font-size: 2.2rem;
+		}
+	}
+
+	.hero-img {
+		padding: 40rem 2em;
+		background-image: $blue-gradient, url('../img/hd-wallpaper-g8608dec86_1920.jpg');
+
+		&__title {
+			font-size: 7.2rem;
+		}
+
+		hr {
+			width: 60%;
+			max-width: 900px;
 		}
 	}
 }
